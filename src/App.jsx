@@ -1,12 +1,17 @@
 import { useState } from 'react'
+import PostWritter from './components/PostWritter'
+import PostsList from './components/PostsList'
 import './App.css'
 
 function App() {
 
+  const [posts, setPosts] = useState([])
   return (
-    <>
-      <h1>I'm going to be a fake twitter soon</h1>
-    </>
+    <div className='app'>
+      <header className="header"><b>Flou Fake Twitter</b></header>
+      <PostWritter setPosts={setPosts}/>
+      <PostsList posts={posts}/>
+    </div>
   )
 }
 
