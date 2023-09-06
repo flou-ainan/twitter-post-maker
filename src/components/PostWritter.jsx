@@ -17,8 +17,8 @@ export default function PostWritter(props){
             [
                 {
                     id: prevPosts.length,
+                    user:props.user,
                     content:postContent,
-                    profilePicURL:"https://github.com/flou-ainan.png"
                 },
                 ...prevPosts
             ]
@@ -27,7 +27,7 @@ export default function PostWritter(props){
     }
     return(
         <div className="post-writter">
-            <img className="profile-pic" src="https://github.com/flou-ainan.png"></img>
+            <img className="profile-pic" src={props.user.userImage}></img>
             <form className="form" onSubmit={submit}>
                 <textarea 
                     className="post-body"

@@ -7,11 +7,13 @@ body {
   margin: 0;
   justify-content: center;
   display: flex;
+  min-width: 270px;
 }
 
 #root {
   width: 100%;
 }
+
 
 @media screen and (max-width: (550px)){
   body {

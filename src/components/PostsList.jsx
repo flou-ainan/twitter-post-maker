@@ -6,8 +6,9 @@ export default function PostsList(props){
         (
             <Post 
                 key={post.id}
-                profilePicURL={post.profilePicURL}
+                user={post.user}
                 content={post.content}
+
                 />
         ))
     return(
