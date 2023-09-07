@@ -200,3 +200,46 @@ textarea:focus{
   }
 }
 
+
+footer {
+  font-size: 12px;
+  font-family: 'Bebas Neue';
+  padding: 5px;
+  margin: 20px 0px 20px 0px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  color: #666;
+  text-align: center;
+  text-anchor: middle;
+}
+footer > div > a {
+  margin-left: 5px;
+  color: hsl(213, 60%, 71%);
+}
+.project {
+  padding: 0;
+  margin: 0px;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-bottom: 3px;
+}
+.project:hover {
+  transform: translateY(-1px);
+}
+.project a {
+  font-family: 'Bebas neue';
+  text-decoration: inherit;
+  color: hsl(213, 44%, 65%);
+  background-color:  hsl(192, 19%, 94%);
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.project a:hover{
+  color: hsl(213, 60%, 36%);
+}
+
+

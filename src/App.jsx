@@ -18,6 +18,13 @@ function App() {
       <header className="header"><b>Flou Fake Twitter</b><Settings user={user} setUser={setUser} /></header>
       <PostWritter setPosts={setPosts} user={user}/>
       <PostsList posts={posts}/>
+      <br/>
+      <footer>
+              <div className='footer--text'>
+                Made by: <a href="https://github.com/flou-ainan">Flou Ainan</a>
+                <p className='project'><a href="https://github.com/flou-ainan/twitter-post-maker/#twitter-post-maker">Access the project</a> </p>
+              </div>
+            </footer>
     </div>
   )
 }
